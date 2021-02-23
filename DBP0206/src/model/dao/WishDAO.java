@@ -226,7 +226,7 @@ public class WishDAO {
 		}
 		return recomm;
 	}
-	//현재 만든 것은 오피스텔, 원룸, 아파트 따라서 가장 많은 것 중 하나만 랜덤으로 보여줌, ~시 도 마찬가지 << 이것을 빼고 다 같이 보여줄 것인지?
+	//현재 만든 것은 오피스텔, 원룸, 아파트 따라서 가장 많은 것 중 하나만 랜덤으로 보여줌, ~시 도 마찬가지 
 	public int countBasket(int c_no) throws SQLException{
 		List<Item> list = findwishList(c_no);
 		return list.size();
